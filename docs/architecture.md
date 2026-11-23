@@ -39,7 +39,7 @@ Record your plan here before editing code.
 - Workout suggestions approach: Find the requested user, prioritize workouts matching their goal and then recent activity, and include a reason for each suggestion.
 
 ## Test plan
-
+ 
 Record the commands you run and what each failure means.
 
 - Data-tier command: `npm run test:data --prefix octofit-tracker/backend`; failures indicate schema or seed behavior does not satisfy the persistence contract.
