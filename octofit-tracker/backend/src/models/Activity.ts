@@ -10,3 +10,4 @@ const activitySchema = new Schema({
 });
 
 export const Activity = model('Activity', activitySchema);
+ 
