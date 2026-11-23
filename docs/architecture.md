@@ -39,7 +39,7 @@ Record your plan here before editing code.
 - Workout suggestions approach: Find the requested user, prioritize workouts matching their goal and then recent activity, and include a reason for each suggestion.
 
 ## Test plan
-
+ 
 Record the commands you run and what each failure means.
 
 - Data-tier command: `npm run test:data --prefix octofit-tracker/backend`; failures indicate schema or seed behavior does not satisfy the persistence contract.
@@ -47,3 +47,4 @@ Record the commands you run and what each failure means.
 - Frontend command: `npm test --prefix octofit-tracker/frontend`; failures indicate API rendering or loading, empty, and error states violate the presentation contract.
 - Backend build command: `npm run build --prefix octofit-tracker/backend`; failures indicate TypeScript errors in backend code.
 - Frontend build command: `npm run build --prefix octofit-tracker/frontend`; failures indicate frontend TypeScript or production bundling errors.
+  
