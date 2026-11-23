@@ -47,4 +47,4 @@ Record the commands you run and what each failure means.
 - Frontend command: `npm test --prefix octofit-tracker/frontend`; failures indicate API rendering or loading, empty, and error states violate the presentation contract.
 - Backend build command: `npm run build --prefix octofit-tracker/backend`; failures indicate TypeScript errors in backend code.
 - Frontend build command: `npm run build --prefix octofit-tracker/frontend`; failures indicate frontend TypeScript or production bundling errors.
- 
+  
